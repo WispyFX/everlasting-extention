@@ -4,15 +4,16 @@
 	"description": "mid-long range defense system.",
 	"health": 1000,
 	"size": 2,
-	"reload": 360,
-	"range": 150,
+	"reloadTime": 30,
+	"range": 130,
 	"ammoUseEffect": "casing2",
 	"inaccuracy": 1,
-	"rotatespeed": 10,
-	"ammo": {
+	"rotateSpeed": 10,
+	"ammoTypes": {
 		"titanium": {
+			"type": "basicBulletType",
 			"speed": 6.0,
-			"damage": 230,
+			"damage": 70,
 			"bulletWidth": 10,
 			"bulletHeight": 13,
 			"shootEffect": "shootSmall",
@@ -20,8 +21,9 @@
 			"ammoMultiplier": 2
 		},
 		"graphite": {
+			"type": "basicBulletType",
 			"speed": 6.0,
-			"damage": 130,
+			"damage": 50,
 			"bulletWidth": 10,
 			"bulletHeight": 13,
 			"shootEffect": "shootSmall",
